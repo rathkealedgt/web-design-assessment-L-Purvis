@@ -1,0 +1,4 @@
+C:\Users\Logan\Documents\GitHub\web-design-assessment-L-Purvis\AS91880\obj\Debug\AS91880.vbprojAssemblyReference.cache
+C:\Users\Logan\Documents\GitHub\web-design-assessment-L-Purvis\AS91880\obj\Debug\AS91880.Resources.resources
+C:\Users\Logan\Documents\GitHub\web-design-assessment-L-Purvis\AS91880\obj\Debug\AS91880.vbproj.GenerateResource.cache
+C:\Users\Logan\Documents\GitHub\web-design-assessment-L-Purvis\AS91880\obj\Debug\AS91880.vbproj.CoreCompileInputs.cache
