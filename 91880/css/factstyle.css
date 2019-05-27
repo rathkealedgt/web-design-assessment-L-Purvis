@@ -1,0 +1,147 @@
+﻿/*Grid Format*/
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "banner banner logo"
+        "image mainnav mainnav"
+        "fact1 fact2 fact3"
+        "footer footer footer";
+    grid-gap: 4px;
+}
+
+.box {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.logo, .banner, .footer {
+    background-color: #ee7822;
+    color: black;
+}
+
+/*Main/Nav Panel*/
+.mainnav {
+    background-color: #1a2133;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Logo Spacing*/
+.logo {
+    grid-area: logo;
+    padding: 0;
+    height: 250px;  
+}
+
+/*Navigation*/
+.mainnav {
+    grid-area: mainnav;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Font and Text Modifiers*/
+.fact1 {
+    grid-area: fact1;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #1a2133;
+    color: snow;
+}
+
+.fact1 a {
+    color: snow;
+    text-decoration: none;
+}
+
+.fact1 a:hover {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.fact1 a:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.fact1 a:hover:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.fact2 {
+    grid-area: fact2;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #1a2133;
+    color: snow;
+}
+
+.fact2 a {
+    color: snow;
+    text-decoration: none;
+}
+
+.fact2 a:hover {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.fact2 a:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.fact2 a:hover:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+ 
+.fact3 {
+    grid-area: fact3;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #1a2133;
+    color: snow;
+    text-decoration: none;
+}
+
+.fact3 a {
+    color: snow;
+    text-decoration: none;
+}
+
+.fact3 a:hover {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.fact3 a:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.fact3 a:hover:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.footer {
+    grid-area: footer;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+}
+
+.banner {
+    grid-area: banner;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+/*Images*/
+.image {
+    grid-area: image;
+}
