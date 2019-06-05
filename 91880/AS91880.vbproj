@@ -95,11 +95,20 @@
     <Content Include="css\factstyle.css" />
     <Content Include="footer.html" />
     <Content Include="header-banner.html" />
+    <Content Include="history.aspx" />
     <Content Include="index.aspx" />
     <Content Include="nature.aspx" />
+    <Content Include="technology.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="history.aspx.designer.vb">
+      <DependentUpon>history.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="history.aspx.vb">
+      <DependentUpon>history.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="index.aspx.designer.vb">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
@@ -131,6 +140,13 @@
     </Compile>
     <Compile Include="nature.aspx.vb">
       <DependentUpon>nature.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="technology.aspx.designer.vb">
+      <DependentUpon>technology.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="technology.aspx.vb">
+      <DependentUpon>technology.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
