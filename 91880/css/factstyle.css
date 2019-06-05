@@ -5,7 +5,7 @@
     grid-template-rows: auto;
     grid-template-areas: 
         "banner banner logo"
-        "image mainnav mainnav"
+        "nav main main"
         "fact1 fact2 fact3"
         "footer footer footer";
     grid-gap: 4px;
@@ -18,17 +18,47 @@
     border-radius: 5px;
 }
 
+/*Logo/Banner/Footer Colour*/
 .logo, .banner, .footer {
     background-color: #ee7822;
     color: black;
 }
 
-/*Main/Nav Panel*/
-.mainnav {
+/*Main*/
+.main {
     background-color: #1a2133;
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    grid-area: main;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Nav*/
+.nav {
+    grid-area: nav;
+    font-family: 'Lato', sans-serif;
+    background-color: #1a2133;
+}
+
+.nav a {
+    color: snow;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.nav a:hover:visited {
+    color: dimgrey;
+    text-decoration: none;
 }
 
 /*Logo Spacing*/
@@ -36,12 +66,6 @@
     grid-area: logo;
     padding: 0;
     height: 250px;  
-}
-
-/*Navigation*/
-.mainnav {
-    grid-area: mainnav;
-    font-family: 'Lato', sans-serif;
 }
 
 /*Font and Text Modifiers*/
@@ -141,7 +165,4 @@
     font-weight: bold;
     color: black;
 }
-/*Images*/
-.image {
-    grid-area: image;
-}
+

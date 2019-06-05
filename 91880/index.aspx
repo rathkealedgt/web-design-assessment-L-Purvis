@@ -3,11 +3,6 @@
 <%Response.WriteFile("header-banner.html") %>
 
 <style>
-    .image {
-        background-image: url(/Assets/imageindex.jpg);
-        background-size: 640px 331px;
-    }
-    
     .fact1 {
         background-image: url(/Assets/nature.jpg);
         background-size: 500px;
@@ -28,11 +23,7 @@
     }
 </style>
 
-    <div class="box image">
-        <!--Image-->
-    </div>
-
-    <div class="box mainnav">
+    <div class="box main">
         <!--About Us/Navigation-->
         Welcome to the home-page of the Random Facts website! Click one of the three links down below to learn something new!
     </div>
