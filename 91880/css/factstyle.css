@@ -1,4 +1,4 @@
-﻿/*Grid Format*/
+﻿/*Insert Grid Format*/
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -34,7 +34,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-/*Nav*/
+/*Navigation. This is not with the other font modifiers as these text modifiers are more visible to the viewer, hence being more important.*/
 .nav {
     grid-area: nav;
     font-family: 'Lato', sans-serif;
@@ -47,28 +47,28 @@
 }
 
 .nav a:hover {
-    color: dimgrey;
+    color: grey;
     text-decoration: none;
 }
 
 .nav a:visited {
-    color: dimgrey;
+    color: snow;
     text-decoration: none;
 }
 
 .nav a:hover:visited {
-    color: dimgrey;
+    color: grey;
     text-decoration: none;
 }
 
-/*Logo Spacing*/
+/*Logo Spacing. This spaces the logo from the banner and other divisions*/
 .logo {
     grid-area: logo;
     padding: 0;
     height: 250px;  
 }
 
-/*Font and Text Modifiers*/
+/*Font and Text Modifiers. These change the font and the text visible to the viewer. There are a lot of them!*/
 .fact1 {
     grid-area: fact1;
     font-family: 'Source Sans Pro', sans-serif;
@@ -156,13 +156,13 @@
     font-family: 'Lato', sans-serif;
     text-align: right;
 }
-
+/*Banner*/
 .banner {
     grid-area: banner;
     font-family: 'Roboto', sans-serif;
-    font-size: 300%;
     text-align: center;
     font-weight: bold;
     color: black;
+    font-size: 120%
 }
 
