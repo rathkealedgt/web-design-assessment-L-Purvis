@@ -6,21 +6,21 @@
         /*This internal stylesheet is responsible for the background and padding at the bottom of each fact.*/
     .fact1 {
         background-image: url(/Assets/nature.jpg);
-        background-size: 500px;
+        background-size: 600px;
     }
 
     .fact2 {
         background-image: url(/Assets/technology.jpg);
-        background-size: 500px;
+        background-size: 600px;
     }
 
     .fact3 {
         background-image: url(/Assets/history.jpg);
-        background-size: 480px;
+        background-size: 600px;
     }
 
     .fact1, .fact2, .fact3 {
-        padding-bottom: 180px;
+        padding-bottom: 270px;
     }
 </style>
 <!--The divisions below are visible to the user in a grid format. These include the main panel, fact 1, 2 and 3.-->
